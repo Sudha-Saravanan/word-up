@@ -28,14 +28,14 @@ main {
 }
 
 /* A chip to display a letter or a wordSubmission */
-.tag-lg {
+.badge-light {
     margin-right: 2%;
     margin-bottom: 2%;
     box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.1);
 }
 
 /* A smaller chip to display the score of a letter or word */
-.tag-sm {
+.badge-info {
     font-size: 14px;
     margin-left: 0.4em;
 }
@@ -65,4 +65,7 @@ input {
 input:focus {
     border: 2px solid #4285F4; /* Bootstrap "primary" blue */
     outline-color: #4285f4; /* outline is the fuzzy "glow" */
+}
+.btn-primary {
+    border-radius:0;
 }
